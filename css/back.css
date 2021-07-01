@@ -1,0 +1,124 @@
+input[type="text"]{
+	width:25vw;
+}
+
+input[type="tel"]{
+	width:15vw;	
+}
+
+input[type="url"]{
+	width:15vw;	
+}
+
+input[type="email"]{
+	width:15vw;	
+}
+
+input[type="password"]{
+	width:15vw;	
+}
+
+
+.button{
+	background: transparent;
+	border-radius: 10px;
+	color: black;
+	width: 150px;
+	height: 50px;
+	font-size: large;
+	margin-top: 1.5em;
+}
+
+.button:hover{
+	background: lightblue;
+}
+
+.button_xs{
+	background: transparent;
+	border-radius: 10px;
+	color: black;
+	width: 80px;
+	height: 30px;
+	font-size: medium;
+}
+
+
+.button_xs:hover{
+	background: lightblue;
+}
+
+.but{
+	background: transparent;
+	border-radius: 10px;
+	color: black;
+	width: 150px;
+	height: 150px;
+	font-size: large;
+}
+
+
+.but:hover{
+	background: lightblue;
+	border-radius: 10px;
+	color: black;
+	width: 150px;
+	height: 150px;
+	font-size: large;
+	transform: scale(1.1);
+}
+
+
+.content{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+
+.oversea_detail{
+	width:35vw;
+	min-width:350px;
+	margin:2vw;
+}
+
+.title{
+	border: solid grey 1px;
+	border-radius: 10px;
+	width: 50vw;
+	background: rgb(0,143,215);
+	min-width: 400px;
+}
+
+.box{
+	border: solid grey 1px;
+	border-radius: 10px;
+	width: 50vw;
+	min-width: 400px;
+}
+
+.bodY{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+
+.member_detail{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+
+.member_content{
+	margin:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+	max-width:45vw;
+	min-width:500px;
+}
